@@ -8,6 +8,7 @@ class Bialet < Formula
   depends_on "openssl@3"
   depends_on "curl"
   depends_on "sqlite"
+  depends_on "python@3"
 
   def install
     system "make"
