@@ -6,7 +6,7 @@ class Bialet < Formula
   license "MIT"
 
   depends_on "openssl@3"
-  depends_on "libcurl"
+  depends_on "curl"
   depends_on "sqlite"
 
   def install
