@@ -11,7 +11,7 @@ class Bialet < Formula
   depends_on "python@3"
 
   def install
-    system "make"
+    system "make", "wren_to_c_string", "all"
     bin.install "bialet"
   end
 
