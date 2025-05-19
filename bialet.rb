@@ -11,7 +11,7 @@ class Bialet < Formula
 
   def install
     system "make"
-    bin.install "bialet"
+    bin.install "build/bialet"
   end
 
   test do
