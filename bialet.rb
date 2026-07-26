@@ -1,8 +1,8 @@
 class Bialet < Formula
   desc "Bialet is a full-stack web framework made to enhance HTML with a native integration to a persistent database"
   homepage "https://github.com/bialet/bialet"
-  url "https://github.com/bialet/bialet/archive/refs/tags/v0.10.5.tar.gz"
-  sha256 "866a4d5605955c496fc2d2e6510ff66d9d8f98c01a8aa24511667b20da5fbd5e"
+  url "https://github.com/bialet/bialet/archive/refs/tags/v0.10.6.tar.gz"
+  sha256 "e0057b98505f4a8dca9e0980922acdca1c51ba44a990f2c5ea9141a109a568c3"
   license "MIT"
 
   depends_on "openssl@3"
